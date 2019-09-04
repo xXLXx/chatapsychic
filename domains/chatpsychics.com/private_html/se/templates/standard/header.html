@@ -1,0 +1,149 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <title>Psychic Contact</title>
+
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+        <meta name="Description" content="Psychic Contact offers Online Psychic Chat and Email Readings - free reading for first time clients" />
+        <meta name="Keywords" content="Free Psychic Chat, Online Psychic Chat Readings, Free Psychic Readings, chat live online, psychic readers online, free pschic readings, psychics, psychic reading, psychic readings, psychic chat reading, Email Readings, tarot reading, free psychic online chat" />
+
+        <meta name="keywords" content="yes yes and more yes" />
+        <meta name="description" content="yes sireee boobla" />
+        <meta name="robots" content="all" />
+
+        <script>
+            if (typeof console === "undefined" || typeof console.log === "undefined")
+            {
+                console = {};
+                console.data = [];
+                console.log = function (enter) {
+                    console.data.push(enter);
+                };
+            }
+        </script>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+
+        <script src="/media/themes/yello-cool/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="/media/themes/yello-cool/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+        <!-- yello-cool start -->
+        <!-- Bootstrap core CSS -->
+        <link href="/media/themes/yello-cool/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="/media/themes/yello-cool/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+        <!-- Custom styles for this template -->
+        <link href="/media/themes/yello-cool/styles.css" rel="stylesheet"/>
+        <!-- yellow cool end -->
+
+        <script src='/media/javascript/placeholder.js'></script>
+        <script src='/media/javascript/rating/jquery.raty.min.js'></script>            
+        <script src='/media/javascript/jqui/jquery-ui-1.8.16.custom.min.js'></script>
+        <link rel="stylesheet" href="/media/javascript/jqui/css/overcast/jquery-ui-1.8.16.custom.css" />
+
+        <style>
+            .page-notifs{ margin:20px 20px 0 20px; }
+            .datetime{ width:206px !important; cursor:pointer; background-image:url(/media/images/calendar.png); background-position:193px 6px; background-repeat: no-repeat; }
+        </style>
+
+    </head>
+
+    <body>
+        <div class="topbar    ">
+            <div class="container">
+                <div class="wrap-social pull-right">
+                    <a href="#"><img src="/media/themes/yello-cool/images/social-fb.png" alt="" /></a>
+                    <a href="#"><img src="/media/themes/yello-cool/images/social-twitter.png" alt="" /></a>
+                    <a href="#"><img src="/media/themes/yello-cool/images/social-insta.png" alt="" /></a>
+                    <a href="#"><img src="/media/themes/yello-cool/images/social-ln.png" alt="" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Static navbar -->
+
+            <nav class="navbar navbar-default top-navbar">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="/"><img src="/media/themes/yello-cool/images/logo.png" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-md-9" id="topnav">
+
+                            <div id="navbar" class="navbar-collapse collapse">
+
+                                <form class="navbar-form navbar-right">
+
+                                    <div class="form-group top-signin">
+                                        <div class="wrap ">
+                                            <?php if (!$_GET['log']): ?>
+                                            <span class="create"><a href="/register/choose_membership">CREATE AN ACCOUNT</a></span>                                      
+                                            <span class="sigin"><a href="/register/login">SIGN IN</a></span>
+                                            <?php else:?>
+                                            <span class="sigin"><a href="/main/logout">SIGN OUT</a></span>
+                                            <?php endif;?>
+                                        </div>
+
+                                    </div>                                                          
+
+                                    <div class="visible-sm br"><br></div>
+
+                                    <div class="form-group wrap-search">
+                                        <div class="input-group  search-group">
+                                            <form action="search.php" method="get">
+                                                <input type="hidden" name="search" value="1" /> 
+                                                <input type="text" name="query" id="query" class="form-control" placeholder="Search"/>
+                                                <span class="input-group-btn" style="display:inline-grid;">
+                                                    <button class="btn btn-default" type="submit" style="height:34px"><img src="/media/themes/yello-cool/images/icon-search.png" alt=""/></button>
+                                                </span>                                                
+                                            </form>
+                                        </div><!-- /input-group -->
+                                    </div>
+
+                                </form>
+                                <div class="clearfix"></div>
+                                <ul class="nav navbar-nav">
+                                    <li><a href="/my_account">Application Status</a></li>
+                                    <li><a href="/faqs">FAQ</a></li>
+                                    <li><a href="/psychics">Our Psychics Online / Earnings</a></li>
+                                    <li><a href="/about-us">About Us</a></li>
+                                    <li><a href="/blog">Our Blog</a></li>
+                                    <li><a href="/articles">Articles</a></li>
+                                    <li><a href="/contact-us">Contact Us</a></li>
+                                </ul>
+                            </div><!--/.navbar-collapse -->
+
+                            <!--<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>-->
+                        </div>
+
+                    </div>
+                </div><!--/.container-fluid -->
+            </nav>
+        </div><div class="purple-bar">
+            <h1>Search Results</h1>
+        </div>
+        <div class="content-wrap">
+            <div class="row ">
+                <div class="col-md-8 content-main">
+                    <article>
+                        <h2 style='margin:15px 0;'></h2>

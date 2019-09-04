@@ -1,0 +1,32 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: mobile_token /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 63
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 16:30:24 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: mobile_token /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 63
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 17:05:04 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: mobile_token /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 63
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: date_registered /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 64
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: last_payment_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 65
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66
+ERROR - 2015-11-21 17:26:01 --> Severity: Notice --> Undefined index: last_login_date /usr/home/tst8/domains/chatpsychics.com/public_html/application/views/vadmin/record_form.php 66

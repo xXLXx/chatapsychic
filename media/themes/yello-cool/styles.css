@@ -1,0 +1,834 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+@media (min-width: 1200px) {
+    .container {
+        width: 1280px;
+    }
+
+
+}
+@media (min-width: 768px) {
+
+    .wrap-search{
+        float: right;
+    }
+
+}
+
+
+
+@media (min-width: 767px) {
+    .top-navbar .navbar-nav {
+        float: right;
+    }
+
+    #topnav {
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto/roboto-light-webfont.eot');
+    src: url('fonts/roboto/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-light-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-light-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-light-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/roboto/roboto-bold-webfont.eot');
+    src: url('fonts/roboto/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-bold-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-bold-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-bold-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto/roboto-regular-webfont.eot');
+    src: url('fonts/roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-regular-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-regular-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-regular-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/roboto/roboto-black-webfont.eot');
+    src: url('fonts/roboto/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-black-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-black-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-black-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('fonts/roboto/roboto-blackitalic-webfont.eot');
+    src: url('fonts/roboto/roboto-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-blackitalic-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-blackitalic-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-blackitalic-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-blackitalic-webfont.svg#robotoblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('fonts/roboto/roboto-bolditalic-webfont.eot');
+    src: url('fonts/roboto/roboto-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-bolditalic-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-bolditalic-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-bolditalic-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-bolditalic-webfont.svg#robotobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('fonts/roboto/roboto-italic-webfont.eot');
+    src: url('fonts/roboto/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-italic-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-italic-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-italic-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('fonts/roboto/roboto-lightitalic-webfont.eot');
+    src: url('fonts/roboto/roboto-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-lightitalic-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-lightitalic-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-lightitalic-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-lightitalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/roboto/roboto-medium-webfont.eot');
+    src: url('fonts/roboto/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-medium-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-medium-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-medium-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('fonts/roboto/roboto-mediumitalic-webfont.eot');
+    src: url('fonts/roboto/roboto-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-mediumitalic-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-mediumitalic-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-mediumitalic-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-mediumitalic-webfont.svg#robotomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('fonts/roboto/roboto-thin-webfont.eot');
+    src: url('fonts/roboto/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-thin-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-thin-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-thin-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('fonts/roboto/roboto-thinitalic-webfont.eot');
+    src: url('fonts/roboto/roboto-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/roboto/roboto-thinitalic-webfont.woff2') format('woff2'),
+    url('fonts/roboto/roboto-thinitalic-webfont.woff') format('woff'),
+    url('fonts/roboto/roboto-thinitalic-webfont.ttf') format('truetype'),
+    url('fonts/roboto/roboto-thinitalic-webfont.svg#robotothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novablack';
+    src: url('fonts/proximanova/proximanova-black-webfont.eot');
+    src: url('fonts/proximanova/proximanova-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-black-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-black-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-black-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-black-webfont.svg#proxima_novablack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('fonts/proximanova/proximanova-bold-webfont.eot');
+    src: url('fonts/proximanova/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-bold-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-bold-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-bold-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold_italic';
+    src: url('fonts/proximanova/proximanova-boldit-webfont.eot');
+    src: url('fonts/proximanova/proximanova-boldit-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-boldit-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-boldit-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-boldit-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-boldit-webfont.svg#proxima_nova_rgbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novaextrabold';
+    src: url('fonts/proximanova/proximanova-extrabold-webfont.eot');
+    src: url('fonts/proximanova/proximanova-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-extrabold-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-extrabold-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-extrabold-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-extrabold-webfont.svg#proxima_novaextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('fonts/proximanova/proximanova-light-webfont.eot');
+    src: url('fonts/proximanova/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-light-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-light-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-light-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novalight_italic';
+    src: url('fonts/proximanova/proximanova-lightitalic-webfont.eot');
+    src: url('fonts/proximanova/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-lightitalic-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-lightitalic-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-lightitalic-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-lightitalic-webfont.svg#proxima_novalight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novaregular_italic';
+    src: url('fonts/proximanova/proximanova-regitalic-webfont.eot');
+    src: url('fonts/proximanova/proximanova-regitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-regitalic-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-regitalic-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-regitalic-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-regitalic-webfont.svg#proxima_novaregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('fonts/proximanova/proximanova-regular-webfont.eot');
+    src: url('fonts/proximanova/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-regular-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-regular-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-regular-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novaregular_italic';
+    src: url('fonts/proximanova/proximanova-regularitalic-webfont.eot');
+    src: url('fonts/proximanova/proximanova-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-regularitalic-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-regularitalic-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-regularitalic-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-regularitalic-webfont.svg#proxima_novaregular_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('fonts/proximanova/proximanova-semibold-webfont.eot');
+    src: url('fonts/proximanova/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-semibold-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-semibold-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-semibold-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold_italic';
+    src: url('fonts/proximanova/proximanova-semibolditalic-webfont.eot');
+    src: url('fonts/proximanova/proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova/proximanova-semibolditalic-webfont.woff2') format('woff2'),
+    url('fonts/proximanova/proximanova-semibolditalic-webfont.woff') format('woff'),
+    url('fonts/proximanova/proximanova-semibolditalic-webfont.ttf') format('truetype'),
+    url('fonts/proximanova/proximanova-semibolditalic-webfont.svg#proxima_novasemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.top-navbar {
+    margin-bottom: 0;
+}
+
+.topbar {
+    background: #dba63f;
+    min-height: 30px;
+    text-align: center;
+}
+
+#topnav {
+    font-family: "robotobold";
+
+}
+
+#topnav .navbar-nav {
+    margin-top: 15px;
+}
+
+.top-signin {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.top-signin span {
+    padding: 5px 15px;
+    color: #424244;
+}
+
+.top-signin span.create{
+    border-right: 1px solid #cdc9c5;
+}
+
+.search-group button {
+    background: #8543bd;
+    border-color: #8543bd;
+}
+
+.search-group button:hover {
+    background: #a050e3;
+    border-color:#a050e3;
+}
+
+.search-group input[type="text"] {
+    font-family: "robotoregular";
+    font-size: 16px;
+    border-color: #b1aeab;
+    -moz-box-shadow:    inset 0 0 3px #b1aeab;
+    -webkit-box-shadow: inset 0 0 3px #b1aeab;
+    box-shadow:         inset 0 0 3px #b1aeab;
+}
+
+
+
+#topnav a {
+    color: #383739;
+}
+
+#topnav a:hover {
+    color: #8543bd;
+}
+.top-search {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.navbar-default {
+    border: none;
+    background: none;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+
+.wrap-social {
+    background: #eeeeee;
+    padding: 10px 13px;
+    max-width: 150px;
+}
+
+.wrap-social a {
+    padding: 0 4px;
+}
+
+.banner {
+    background: url("images/banner-1900.png") center no-repeat transparent ;
+
+    height: 351px;
+    color: #FFFFFF;
+    text-shadow: 1px 2px #3c314c;
+    /*padding: 80px 80px 0;*/
+    font-family: "robotolight";
+}
+
+
+.btn-primary {
+    background-color: #e19f12;
+    border: 1px #f1d31c solid;
+    border-bottom: #e19f12;
+    border-radius: 50px ;
+    text-shadow:  1px 2px #d77e0c;
+    padding: 7px 45px;
+}.banner .btn-primary {
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #f1d31c;
+    border: 1px #f1d31c solid;
+}
+
+.banner .h1, .banner h1 {
+    font-size: 47px;
+}
+
+.navbar-inverse {
+    background-color: #dba63f;
+    border-color: #bc8f36;
+}
+
+
+
+.yellow-bar {
+    font-family: 'robotobold';
+    font-size: 26px;
+    background: #e19f12;
+    border-top: 1px solid #e7b13f;
+    padding: 20px 40px;
+    color: #FFFFFF;
+    margin-bottom: 17px;
+
+}
+
+.purple-bar h1 {
+    font-family: 'robotobold';
+    font-size: 26px;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+.purple-bar {
+    background: #4e3c5e;
+    border-top: 1px solid #41324e;
+    padding: 20px 5%;
+    margin-bottom: 17px;
+}
+
+
+.yellow-bar .col-md-8 {
+    font-family: 'robotoregular';
+    color: #3a2849;
+}
+
+.yellow-bar .col-md-8 b {
+    font-family: 'robotobold_italic';
+    text-decoration: underline;
+}
+.content-wrap {
+    margin-bottom: 50px;
+    padding: 0 5%;
+}
+
+.content-main {
+    font-family: "robotoregular";
+    color: #413b45;
+    font-size: 16px;
+
+}
+
+.well {
+    background-color: #f9f8f7;
+}
+
+.content-main.psychics p {
+    margin-top: 17px;
+    text-align: center;
+}
+
+
+.psychics .panel-footer {
+    font-family: "robotomedium";
+    font-size: 14px;
+    background-color: #fbe9c7;
+    color: #6f4d0c;
+}
+
+.psychics .panel-footer > div {
+    width: 50%;
+    float: left;
+}
+
+.content-main.psychics .panel-body {
+    text-align: center;
+    color: #8543bd;
+    font-size: 18px;
+}
+
+.content-main.psychics .panel-body p {
+    margin: 8px;
+}
+
+.psychics .panel-footer > div.rate {
+    font-family: "robotobold";
+    font-size: 20px;
+    text-align: right;
+    color: #343434;
+}
+
+p > img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+
+p > em {
+    font-family: "robotoitalic";
+    color: #afa99c;
+}
+.content-main h1, .content-main h2 {
+    font-size: 30px;
+}
+
+.boxed h2 {
+    font-family: 'proxima_novasemibold';
+    text-align: center;
+    background: #3a2849;
+    color: #fff4da;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-top: 0;
+}
+
+
+.boxed p {
+
+    font-family: 'robotoregular';
+    font-size: 16px;
+    color: #493758;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.boxed .border-wrap {
+    /*border: 1px solid #dddddd;*/
+    margin-top: 20px;
+    /*background: url("images/bg-box.png") no-repeat center;*/
+}
+
+.boxed .col-md-4 {
+    margin-bottom: 50px;
+}
+
+.boxed .top{
+    height: 10px;
+    margin: 0 10px;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+}
+
+.boxed .mid {
+    border: 1px solid #dddddd;
+    padding: 0 10px;
+}
+
+.boxed .mid .inner {
+    border: 1px solid #dddddd;
+    border-top: none;
+    border-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.footer-box {
+    height: 20px;
+    border: 1px solid #dddddd;
+    border-top: none;
+    margin: 0 11px;
+    position: relative;
+}
+
+.footer-box .box-btn {
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: -23px; left: 0; bottom: 0; right: 0;
+    font-family: 'robotobold';
+
+}
+
+.boxed .curve {
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    position: relative;
+    top: -1px;
+    /*width: 306px !important;*/
+    background: url("images/footer-curve.png") no-repeat top center;
+    height: 33px;
+}
+.footer {
+    margin-top: 50px;
+}
+
+
+.footer > div.footer-links {
+    background: #c3c3c3;
+
+}
+
+.seperator {
+    border-bottom: 1px solid #b3afaf;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.footer-links a{
+    padding: 30px;
+    font-family: "robotobold";
+    font-size: 16px;
+    color: #2e3132;
+}
+
+.footer  .nav{
+
+    text-align: center;
+}
+.footer  .nav li{
+    display: inline;
+    padding: 10px;
+}
+.footer  .nav a{
+    display: inline-block;
+    padding: 10px;
+}
+
+.copy {
+    font-family: "robotomedium";
+    font-size: 13px;
+    background: #3a2849;
+    color: #b4bdc2;
+    overflow: hidden;
+}
+
+.copy p {
+    padding: 20px 0 0;
+}
+
+.banner-ads-section {
+    margin-top: 50px;
+}
+
+.ad-holder img {
+    display: inline-block;
+}
+
+.privacy {
+    color: #d3ad81;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 351px;
+    /*margin-bottom: 60px;*/
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+    bottom: auto;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    /*background-color: #777;*/
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 766px) {
+    .banner {
+        background: url("images/banner.jpg") right no-repeat transparent ;
+    }
+
+
+}
+
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.div-error p{
+    font-weight: bold;
+    color:red;
+}
